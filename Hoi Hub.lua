@@ -437,7 +437,7 @@ BringEnemy = function()
     end
     for _, v in pairs(workspace.Enemies:GetChildren()) do
         if v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
-            if (v.PrimaryPart.Position - PosMon).Magnitude <= 300 then
+            if (v.PrimaryPart.Position - PosMon).Magnitude <= 500 then
                 v.PrimaryPart.CFrame = CFrame.new(PosMon)
                 v.PrimaryPart.CanCollide = true;
                 v:FindFirstChild("Humanoid").WalkSpeed = 0;
