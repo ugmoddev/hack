@@ -4194,7 +4194,7 @@ spawn(function()
                         game.StarterGui:SetCore("SendNotification", {
                             Title = "Notification",
                             Text = "Not Have Enough Material",
-                            Icon = "http://www.roblox.com/asset/?id=",
+                            Icon = "http://www.roblox.com/asset/?id=130158102180738",
                             Duration = 2.5
                         })
                     else
@@ -8152,6 +8152,7 @@ if currentTime - lastNotificationTime >= notificationCooldown then
     lastNotificationTime = currentTime
 
 end
+
 
 
 
